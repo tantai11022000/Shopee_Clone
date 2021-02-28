@@ -95,7 +95,19 @@ html {
     right: 0;
     background-color: #d3d3d3;
     width: 400px;
-    
+    animation: notifyAnimation ease-in 0.25s;
+    transform-origin: top right;
+}
+
+@keyframes notifyAnimation {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 /* Đây là cách để tạo ra 1 boder có hình tam giác  */
