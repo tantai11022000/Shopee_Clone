@@ -201,7 +201,7 @@ html {
     bottom : 0;
     right: 0;
     left: 0;
-    display: none;
+    display: flex;
     /* sau này phải dùng JS để khi nhấn 
     vào kích hoạt về display flex để căn giữa form */
 }
@@ -217,9 +217,9 @@ html {
     margin: auto;
     background-color: #fff;
     width: 30%;
-    height: 75%;
+    height: 50%;
     position: relative;
-    display: none; 
+    /* display: none;  */
     /* tắt mở form */
 }
 
