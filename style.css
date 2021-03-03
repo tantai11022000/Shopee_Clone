@@ -201,7 +201,7 @@ html {
     bottom : 0;
     right: 0;
     left: 0;
-    display: flex;
+    display: none;
     /* sau này phải dùng JS để khi nhấn 
     vào kích hoạt về display flex để căn giữa form */
 }
@@ -244,6 +244,13 @@ html {
     bottom: 70px;
     right: 30px;
     width: 50px;
+}
+
+.btn-comeback {
+    position: absolute;
+    bottom: 70px;
+    width: 50px;
+    left: 20px;
 }
 
 .modal__body-social {

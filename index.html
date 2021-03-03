@@ -8,7 +8,7 @@
     <title>Shopee Clone</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./icon/themify-icons/themify-icons.css">
-
+    <script src="./myJS.js"></script>
 </head>
 
 <body>
@@ -128,6 +128,7 @@
                     <input type="password" class="pass_account content-input" placeholder="Nhập pass">
                     <input type="password" class="passagain_account content-input" placeholder="Nhập lại pass">
                     <button class="btn-finish">OK</button>
+                    <button class="btn-comeback">Trở lại</button>
                 </div>
             </div>
             <div class="modal__body-social">
@@ -146,5 +147,7 @@
             </div>
         </div>
     </div>
+    <script>setInterval(activeForm("nav__header-list-item","Đăng ký"),10)</script>
+    <script>setInterval(closeForm("btn-comeback","Trở lại"),10)</script>
 </body>
 </html>
